@@ -1,0 +1,25 @@
+header{
+	position: relative;
+	height: 50px;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+	border: 1px solid #000;
+	border-style: none none solid none;
+	background-color: rgb(0, 0, 0, 0.915);
+}
+header > div:nth-child(2){
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	gap: 25px;
+}
+header > div > a, header > div > div > a{
+	text-decoration: none;
+}
+header a{
+	color: #fff;
+}
+header a:hover{
+	color: darkgoldenrod;
+}
